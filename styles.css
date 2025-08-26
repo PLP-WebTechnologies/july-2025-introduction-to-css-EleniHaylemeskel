@@ -1,0 +1,46 @@
+/* Basic reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Card shows margin, border, padding */
+.card {
+  margin: 20px auto;
+  padding: 15px;
+  border: 2px solid #4a90e2;
+  background: #eaf3ff;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+/* Note box styled differently */
+.note {
+  margin: 20px auto;
+  padding: 15px;
+  border: 2px dashed #f39c12;
+  background: #fff3e0;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover { background: #357ab8; }
